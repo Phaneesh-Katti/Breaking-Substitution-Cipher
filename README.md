@@ -29,7 +29,7 @@ So, the message "HELLO" might become "ITSSG" using this substitution key. While 
 
 This repository contains the following key files:
 
-1. `main.py` - The main program file with the user interface
+1. `app.py` - The main program file with the user interface
 2. `decipher_text.py` - The core decryption engine
 3. `quadgrams.txt` - Statistical data file for English quadgrams
 4. `config.json` - Configuration file containing settings
@@ -61,12 +61,12 @@ This decoder uses several sophisticated techniques to break substitution ciphers
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/substitution-cipher-decoder
+git clone https://github.com/Phaneesh-Katti/Breaking-Substitution-Cipher.git
 cd substitution-cipher-decoder
 ```
 
 2. Ensure all required files are present:
-   - `main.py`
+   - `app.py`
    - `decipher_text.py`
    - `quadgrams.txt`
    - `config.json`
@@ -78,7 +78,7 @@ cd substitution-cipher-decoder
 
 Run the program using:
 ```bash
-python main.py
+python app.py
 ```
 
 The program will present two options:
@@ -97,7 +97,7 @@ The `config.json` file contains two main sections:
 ```json
 {
     "cipher_settings": {
-        "anchor_chars": [" ", ".", ",", "!", "?", "-", ";", ":"],
+        "anchor_chars": [" ", ",", "!", "?", ";"],
         "common_words": ["the", "be", "to", "of", "and", ...]
     }
 }
@@ -114,7 +114,7 @@ Default anchor characters include spaces, punctuation marks, and special symbols
 
 ### Common Words List
 
-The common words list is used to validate potential solutions by checking what percentage of decrypted words appear in English. The default list includes:
+The common words list is used to validate potential solutions by checking what percentage of common decrypted words appear in English. The default list includes:
 - Most frequent English words
 - Common pronouns, articles, and prepositions
 - Basic verb forms
