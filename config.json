@@ -1,0 +1,6 @@
+{
+    "cipher_settings": {
+        "anchor_chars": [",", ".", ";", " ", "!", "?"],
+        "common_words": ["the", "and", "that", "have", "for", "not", "with", "you", "this", "but", "a", "an", "of"]
+    }
+}
