@@ -20,7 +20,7 @@ A substitution cipher is one of the simplest forms of encryption where each lett
 
 ```
 Plain alphabet:    ABCDEFGHIJKLMNOPQRSTUVWXYZ
-Substituted with: QWERTYUIOPASDFGHJKLZXCVBNM
+Substituted with:  QWERTYUIOPASDFGHJKLZXCVBNM
 ```
 
 So, the message "HELLO" might become "ITSSG" using this substitution key. While simple, there are 26! (approximately 4 × 10²⁶) possible keys, making brute force impractical.
