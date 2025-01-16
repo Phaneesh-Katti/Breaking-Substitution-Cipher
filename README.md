@@ -62,7 +62,7 @@ This decoder uses several sophisticated techniques to break substitution ciphers
 1. Clone this repository:
 ```bash
 git clone https://github.com/Phaneesh-Katti/Breaking-Substitution-Cipher.git
-cd substitution-cipher-decoder
+cd Breaking-Substitution-Cipher
 ```
 
 2. Ensure all required files are present:
